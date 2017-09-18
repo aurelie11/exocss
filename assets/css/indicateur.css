@@ -1,7 +1,20 @@
 .indicateur li{
+    display: inline-flex;
     background:#bfd70e;
     border-radius:50%;
-    height:100px;
-    width:100px;
+    height:80px;
+    width: 80px;
     border:2px solid #679403;
+}
+
+.indicateur li:nth-child(4){
+  background-color: red;
+}
+
+.indicateur li:nth-child(7){
+  background-color: red;
+}
+
+.indicateur li:nth-child(12){
+  background-color: red;
 }
