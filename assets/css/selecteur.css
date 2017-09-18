@@ -1,1 +1,58 @@
-.master{}
+
+.master{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.master h1{
+  width: 100%;
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-family: Times, serif;
+  font-weight: bold;
+}
+
+.master div{
+  background-color: #98B98B;
+  border: 1px solid #888888;
+  flex-flow: row wrap;
+  width: 615px;
+  height: 330px;
+  margin-right: 18px;
+  margin-bottom: 18px;
+
+}
+
+.master h2{
+  font-size: 30px;
+  margin-bottom: 0px;
+  padding-left: 15px;
+
+}
+
+.master img{
+  width: 280px;
+  height: 240px;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.master h3{
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  margin-top: 0px;
+
+}
+
+.master p{
+  color: #483837;
+  font-size: 19px;
+  padding-right: 15px;
+}
+
+
+
+
